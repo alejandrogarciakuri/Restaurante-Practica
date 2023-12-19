@@ -8,7 +8,7 @@ namespace Project.Interfaces
 
 		int Total { get; }
 
-		void AregarElemento(Platillo platillo, int cantidad);
+		void AgregarElemento(Platillo platillo, int cantidad);
 
 		void MostrarCuenta();
 	}
